@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <center>
+        <form>
+        <table border="2" cellspacing="0" cell padding="2">
+            <tr>
+                <td><label for="name">FULL NAME:</label></td>
+                <td><input type="text" id="name" placeholder="Enter Your Name"required></td>
+            </tr>
+            <tr>
+                <td><label for="rollnumber">ROLL NUMBER:</label></td>
+                <td><input type="text" id="rollnumber" placeholder="Enter Your Rollnumber" required></td>
+            </tr>
+            <tr>
+                <td><label for="college">SELECT YOUR COLLEGE:</label></td>
+                <td>
+                    <select id="college" name="college" required>
+                        <option></option>
+                        <option value="ACET">ACET</option>
+                        <option value="AUS">AUS</option>
+                        <option value="AEC">AEC</option>
+                        <option value="ACOE">ACOE</option>
+                    </select>
+                </td>
+            </tr>
+            <tr>
+                <td><label for="email">EMAIL:</label></td>
+                <td><input type="text" id="email" placeholder="Enter Your College Mail" required
+                    ></td>
+            </tr>
+            <tr>
+                <td><label for="phone">Phone Number:</label></td>
+                <td><input type="number" id="phone" name="phone" required></td>
+            </tr>
+            <tr>
+                <td><label for="country">Country:</label></td>
+                <td>
+                    <select id="country" name="country" required>
+                        <option></option>
+                        <option value="USA">USA</option>
+                        <option value="Canada">Canada</option>
+                        <option value="India">India</option>
+                        <option value="Australia">Australia</option>
+                        <option value="UK">UK</option>
+                    </select>
+                </td>
+            </tr>
+            <tr>
+                <td> <label for="username">USERNAME:</label></td>
+                <td><input type="text" id="username" required></td>
+            </tr>
+            <tr>
+                <td><label for="password">SET PASSWORD:</label></td>
+                <td><input type="password" id="password" required pattern=".{6,}" title="Password must be at least 6 characters long"></td>
+            </tr>
+            <tr>
+                <td><label for="confirmpassword">CONFIRM  PASSWORD:</label></td>
+                <td><input type="password" id="confirmpassword"></td>
+            </tr>
+            <tr>
+                <td><label for="Gender">GENDER:</label></td>
+                <td><input type="radio" name="gender" id="male" required><label for="male"> MALE</label><br>
+                    <input type="radio" name="gender" id="female" required><label for="female">FEMALE</label><br>
+                    <input type="radio" name="gender" id="others" required><label for="others">OTHERS</label><br>
+                </td>
+            </tr>
+            <tr>
+                <td><label for="dob">DATE OF BIRTH:</label></td>
+                <td><input type="date" id="dob"></td>
+            </tr>
+            <tr>
+                <td><label for="lang">LANGUAGES KNOWN :</label></td>
+                <td><input type="checkbox" name="lang" id="C" value="C"><label for="C">C</label><br>
+                    <input type="checkbox" name="lang" id="C++" value="C++"><label for="C++">C++</label> <br>
+                    <input type="checkbox" name="lang"id="Java" value="Java"><label for="Java">Java</label><br>
+                    <input type="checkbox" name="lang" id="Python" value="Python"><label for="Python">Python</label>
+                </td>
+            </tr>
+            <tr>
+                <td><label for="comment your opinion on unemployment" >COMMENT YOUR OPINION <br><center>ON SOCIETY</center></label></td>
+                <td><textarea rows="5" clos="10" placeholder="COMMENT YOUR OPINION"></textarea></td>
+            </tr>
+            <tr><td colspan="2">
+                <center>
+                    <br>
+            <input type="submit" id="submit">
+            <br>
+            <br>
+            </center>
+                </td>
+            </tr>
+        </table>
+        </form>
+        <br><br><br>     
+    </center>
+</body>
+</html>
