@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student-Login</title>
+</head>
+<body>
+    <center>
+        <form>
+            <div style="height: 30vh;"></div>
+            <table border="1" cellspacing="'5" cellpadding="5">
+                <tr>
+                    <td> <label for="username">USERNAME:</label></td>
+                    <td><input type="text" id="username" required></td>
+                </tr>
+                <tr>
+                    <td><label for="password">SET PASSWORD:</label></td>
+                    <td><input type="password" id="password" required pattern=".{6,}" title="Password must be at least 6 characters long"></td>
+                </tr>
+                <tr>
+                    <td><label for="confirmpassword">CONFIRM  PASSWORD:</label></td>
+                    <td><input type="password" id="confirmpassword"></td>
+                </tr>
+            </table>
+        </form>
+    </center>
+    
+</body>
+</html>
