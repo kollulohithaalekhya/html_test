@@ -4,10 +4,27 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Student-Login</title>
+    <style>
+        body{
+            background-image:url(https://i.pinimg.com/736x/74/e9/f9/74e9f9ecd2fab333a6ea926dd18538fd.jpg);
+        }
+        table{
+            background-color:beige;
+            border-color:rgb(4, 4, 4);
+        }
+        td{
+            color:rgb(44, 0, 139);
+        }
+        input[type="submit"] {
+            background-color: rgba(220, 20, 60, 0.71);
+            font-weight: bold;
+            border-color: black;
+        }
+    </style>
 </head>
 <body>
     <center>
-        <form>
+        <form action="https://t4.ftcdn.net/jpg/03/39/97/39/360_F_339973912_nRGVDPRSsnwt2GBNB4pi8SbtOt6ZK3Zy.jpg">
             <div style="height: 30vh;"></div>
             <table border="1" cellspacing="'5" cellpadding="5">
                 <tr>
@@ -21,6 +38,12 @@
                 <tr>
                     <td><label for="confirmpassword">CONFIRM  PASSWORD:</label></td>
                     <td><input type="password" id="confirmpassword"></td>
+                </tr>
+                <tr><td colspan="2">
+                    <center>
+                <input type="submit" value="Login" id="submit">
+                </center>
+                    </td>
                 </tr>
             </table>
         </form>
