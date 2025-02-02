@@ -3,7 +3,24 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>FORM</title>
+    <style>
+        body{
+            background-image:url(https://i.pinimg.com/736x/74/e9/f9/74e9f9ecd2fab333a6ea926dd18538fd.jpg);
+        }
+        table{
+            background-color:beige;
+            border-color:rgb(4, 4, 4);
+        }
+        td{
+            color:rgb(44, 0, 139);
+        }
+        input[type="submit"] {
+            background-color: rgba(220, 20, 60, 0.71);
+            font-weight: bold;
+            border-color: black;
+        }
+    </style>
 </head>
 <body>
     <center>
@@ -20,7 +37,7 @@
             <tr>
                 <td><label for="college">SELECT YOUR COLLEGE:</label></td>
                 <td>
-                    <select id="college" name="college" required>
+                    <select id="college" name="college" style="width: 100%;" required>
                         <option></option>
                         <option value="ACET">ACET</option>
                         <option value="AUS">AUS</option>
@@ -41,7 +58,7 @@
             <tr>
                 <td><label for="country">Country:</label></td>
                 <td>
-                    <select id="country" name="country" required>
+                    <select id="country" name="country" style="width: 100%;" required>
                         <option></option>
                         <option value="USA">USA</option>
                         <option value="Canada">Canada</option>
@@ -64,14 +81,14 @@
                 <td><input type="password" id="confirmpassword"></td>
             </tr>
             <tr>
-                <td><label for="Gender">GENDER:</label></td>
+                <td><label for="Gender" >GENDER:</label></td>
                 <td><input type="radio" name="gender" id="male" required><label for="male"> MALE</label><br>
                     <input type="radio" name="gender" id="female" required><label for="female">FEMALE</label><br>
                     <input type="radio" name="gender" id="others" required><label for="others">OTHERS</label><br>
                 </td>
             </tr>
             <tr>
-                <td><label for="dob">DATE OF BIRTH:</label></td>
+                <td><label for="dob" >DATE OF BIRTH:</label></td>
                 <td><input type="date" id="dob"></td>
             </tr>
             <tr>
@@ -90,14 +107,15 @@
                 <center>
                     <br>
             <input type="submit" id="submit">
-            <br>
-            <br>
+            <br><br>
             </center>
                 </td>
             </tr>
         </table>
-        </form>
-        <br><br><br>     
+        </form>   
     </center>
+    <script>
+        document.body.style.zoom = "120%";
+    </script>
 </body>
 </html>
